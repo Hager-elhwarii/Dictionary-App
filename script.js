@@ -9,7 +9,6 @@ searchBtn.addEventListener("click", () => {
   fetch(`${url}${inputValue}`)
     .then((response) => response.json())
     .then((data) => {
-      console.log(data);
       result.innerHTML = ` <div class="word-contanier">
     <h2>${inputValue}</h2>
 
