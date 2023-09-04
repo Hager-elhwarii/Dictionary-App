@@ -3,7 +3,6 @@ const searchBtn = document.getElementById("search-btn");
 const result = document.getElementById("wrapper");
 const soundId = document.getElementById("sound");
 
-
 searchBtn.addEventListener("click", () => {
   let inputValue = document.getElementById("search-input").value;
 
@@ -32,12 +31,14 @@ searchBtn.addEventListener("click", () => {
       data[0].meanings[0].definitions[0].example || ""
     }</p>
   </div>`;
-    soundId.setAttribute("src",`${data[0].phonetics[1].audio}`)
+      soundId.setAttribute("src", `${data[0].phonetics[1].audio}`);
     })
-    .catch(() => (result.innerHTML = `<h3>Couldn't Find The Word!!</h3>`));
+    .catch(
+      () =>
+        (result.innerHTML = `<h3 class="word-missing">sorry, couldn't find the word.</h3>`)
+    );
 });
 
 function playSound() {
-    soundId.play();
+  soundId.play();
 }
-

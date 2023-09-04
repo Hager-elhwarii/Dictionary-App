@@ -1,49 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Manrope:wght@300&family=Poppins:wght@300&family=Quicksand&display=swap");
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-    background-color: #8ca3d6;
+  background-color: #8ca3d6;
 }
 .contanier {
-    border: 2px solid red;
-    width: 60vmin;
-    padding: 12px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background-color: #eee;
+  width: 80vmin;
+  padding: 30px 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #eee;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.search-box{
-    display: flex;
-    flex-wrap: wrap;
-    border: 2px solid yellow;
-    justify-content: space-between;
-    margin-bottom: 30px;
+.search-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 30px 0 50px 0;
 }
 .search-box input {
-    padding: 6px 2px;
+  padding: 14px 0;
+  padding-right: 90px;
+  border: none;
+  outline: none;
+  background-color: #eee;
+  border-bottom: 3px solid #8ca3d6;
+  font-size: 17px;
 }
 .search-box button {
-    padding: 6px;
+  border: none;
+  outline: none;
+  background-color: #8ca3d6;
+  padding: 0 48px;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  text-transform: capitalize;
+  cursor: pointer;
 }
 .word-contanier {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+}
+.word-contanier h2 {
+  font-size: 36px;
+  font-family: "Quicksand";
+  color: #1c1c1c;
 }
 .word-contanier button {
-    padding: 6px;
+  padding: 6px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 18px;
+  color: #708ecd;
+  cursor: pointer;
 }
 .details {
-    display: flex;
-    margin-bottom: 30px;
+  display: flex;
+  gap: 8px;
+  margin-bottom: 30px;
+}
+.details p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(147, 146, 146);
+  font-size: 16px;
+}
+.meaning {
+  padding: 26px 0;
 }
 .word-meaning {
-    margin-bottom: 20px;
+  font-size: 16.8px;
+  margin-bottom: 20px;
+  color: #30313d;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .word-example {
-    border-left: 4px solid #8ca3d6;
-    padding-left: 10px;
+  color: #30313d;
+  font-size: 16.8px;
+  border-left: 4px solid #8ca3d6;
+  padding-left: 10px;
+  font-style: italic;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.word-missing {
+  font-family: "Quicksand";
+  color: #1c1c1c;
+  font-size: 26px;
+  text-transform: capitalize;
 }
