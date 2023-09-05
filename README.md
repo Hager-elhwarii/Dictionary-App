@@ -25,8 +25,9 @@ Simple JavaScript API Project, where you can search for words, and it outputs wo
 
 ## ⚙️ API Reference
 
-` Get `  
+```  
 https://api.dictionaryapi.dev/api/v2/entries/en/<word>
+```
 
 ##  🔐 Run locally 
 
