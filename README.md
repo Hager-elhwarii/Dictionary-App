@@ -26,19 +26,19 @@ Simple JavaScript API Project, where you can search for words, and it outputs wo
 ## ⚙️ API Reference
 
 ```http
-https://api.dictionaryapi.dev/api/v2/entries/en/<word>
+https://api.dictionaryapi.dev/api/v2/entries/en/
 ```
-
-## 📌 Acknowledgments
-- [Font Awesome](https://fontawesome.com/)
-- [Google Fonts](http://hager.a.elhawary@gmail.com/)
-- [Netlify](https://www.netlify.com/)
 
 ##  🔐 Run locally 
 
 ```bash
 git clone https://github.com/Hager-elhwarii/Dictionary-App.git
 ```
+
+## 📌 Acknowledgments
+- [Font Awesome](https://fontawesome.com/)
+- [Google Fonts](http://hager.a.elhawary@gmail.com/)
+- [Netlify](https://www.netlify.com/)
 
 ## 🦄   Author
 If you want to get in-touch with me you can reach me at:
