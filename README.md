@@ -23,11 +23,11 @@ Simple JavaScript API Project, where you can search for words, and it outputs wo
 - CSS
 - JavaScript
 
-## API Reference
+## ⚙️ API Reference
 
-```http
+``http
  https://api.dictionaryapi.dev/api/v2/entries/en/<word>
-```
+``
 ## 📌 Acknowledgments
 - [Font Awesome](https://fontawesome.com/)
 - [Google Fonts](http://hager.a.elhawary@gmail.com/)
