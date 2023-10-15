@@ -1,6 +1,7 @@
-# Dictionary-App 💡
+# Dictionary App 💡
 <a name="readme-top"></a>
-- Simple JavaScript API Project, where you can search for words, and it outputs word meaning, word pronunciation, audio pronunciation and usage example.
+- Simple `JavaScript API Project`, where you can search for words, and it outputs word meaning,
+   word pronunciation, audio pronunciation and usage example.
 
 ## 📷  Demo Screenshoot
 ![image](https://github.com/Hager-elhwarii/Dictionary-App/assets/80959882/089b8588-4a56-4e2e-935b-c20d265c0083)
@@ -41,7 +42,8 @@ git clone https://github.com/Hager-elhwarii/Dictionary-App.git
 - [Netlify](https://www.netlify.com/)
 
 ## 🦄   Author
-If you want to get in-touch with me you can reach me at:
+> If you want to get in-touch with me you can reach me at:
+
 -  [Email](http://hager.a.elhawary@gmail.com/)
 -  [LinkedIn](https://www.linkedin.com/in/hager-omar-elhawary/)
 -  [GitHub](https://github.com/Hager-elhwarii)
